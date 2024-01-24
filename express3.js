@@ -4,12 +4,9 @@ const app = express();
 app.set('port', process.env.PORT || 3000);
 
 
-app.get('/get', (req, res) => {
-    const userName = req.query.name;
-    const age = req.query.age;
-    const userLast = req.query.last
-
-    res.send(`User Name: ${userName}, age: ${age}, User Last Name: ${userLast}`);
+app.get('/user/:username', (req, res) => {
+    const username = req.params.username;
+    res.send(`Hello ${username}`);
 });
 
 app.use((req, res) => {
