@@ -1,6 +1,10 @@
 # AD320
 assignments for AD320 class
 
+Assignment: Build a Basic Express NodeJS Server 0
+
+The server can be run from the command terminal. First, you need to be in the right directory. After that, you can type "node express0.js". if the server is running correctly. It will show the message "Server is running." 
+
 
 Assignment: Handling Route Parameters in Express 3
 
