@@ -2,6 +2,8 @@
 assignments for AD320 class
 
 Assignment: Handling Query Strings in Express 4
+
+
 The server can be run in the command terminal. First you need to be in the right directory. After that, you can type "node get.js". if the server is running correctly.
 It will show the message "server is running".
 The test query works by typing ,in this case,  something like this: "http://localhost:3000/get?name=Miguel&age=38&last=Quintana"
