@@ -1,0 +1,14 @@
+{
+  "name": "eslint",
+  "version": "0.1.0",
+  "description": "ESLint module",
+  "main": "index2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Miguel",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.56.0"
+  }
+}
